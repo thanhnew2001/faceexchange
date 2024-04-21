@@ -6,6 +6,7 @@ To enhance the efficiency of your face-swapping code, consider implementing thes
 
 ****Cache Landmark Points and Triangulation:**
 Store the results of costly operations like Delaunay triangulation for static images to avoid recomputing in each frame. This step is crucial if the original image does not change over time.
+
 **Use Efficient Array Operations:** 
 The function extract_index_nparray can be optimized to use more efficient numpy operations, reducing the overhead of Python loops.
 
